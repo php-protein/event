@@ -1,5 +1,5 @@
 {
-    "name": "protein/event",
+    "name": "proteins/event",
     "description": "Event emitter-listener global class and behaviour trait",
     "type": "library",
     "license": "MIT",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "PSR-4": {
-            "Protein\\": "src/"
+            "Proteins\\": "src/"
         }
     }
 }

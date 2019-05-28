@@ -5,11 +5,11 @@
  *
  * Generic global trait for an event emitter-listener behaviour.
  *
- * @package Protein
+ * @package Proteins
  * @author  "Stefano Azzolini"  <lastguest@gmail.com>
  */
 
-namespace Protein;
+namespace Proteins;
 
 abstract class Event {
     use Events;

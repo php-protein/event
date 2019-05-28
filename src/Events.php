@@ -5,11 +5,11 @@
  *
  * Add to a class for a generic, private event emitter-listener.
  *
- * @package Protein
+ * @package Proteins
  * @author  "Stefano Azzolini"  <lastguest@gmail.com>
  */
 
-namespace Protein;
+namespace Proteins;
 
 trait Events {
     protected static $_listeners = [];

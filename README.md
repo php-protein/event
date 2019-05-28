@@ -7,19 +7,19 @@
 ---
 
 ```
-composer require protein/event
+composer require proteins/event
 ```
 
 Require the global class via :
 
 ```php
-use Protein\Event;
+use Proteins\Event;
 ```
 
 or the include the trait in your classes via :
 
 ```php
-use Protein\Events;
+use Proteins\Events;
 
 class MyClass {
     use Events;
