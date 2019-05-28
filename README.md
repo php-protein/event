@@ -1,3 +1,5 @@
+<p align=center><img height=150 src="https://raw.githubusercontent.com/php-protein/docs/master/assets/protein-large.png"></p>
+
 # Protein | Events
 ## Event emitter-listener global class and behaviour trait
 
@@ -31,7 +33,7 @@ class MyClass {
 You can attach an handler to a named event via the `on` method.
 
 ```php
-Event::on('myevent',function(){
+Event::on('my.event',function(){
    echo 'Hello, Friend!';
 });
 ```
