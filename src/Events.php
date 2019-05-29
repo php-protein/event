@@ -26,7 +26,7 @@ trait Events {
         if ($listener === null) {
             unset(static::$_listeners[$name]);
         } else {
-            if ($idx = array_search($listener, static::$_listeners[$name], true)) {
+            if ($idx = \array_search($listener, static::$_listeners[$name], true)) {
                 unset(static::$_listeners[$name][$idx]);
             }
         }
